@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "InterExtraBold";
+    src: url('/public/fonts/InterExtraBold.otf') format('otf');
+}
+@font-face {
+    font-family: "InterExtraLight";
+    src: url('/public/fonts/InterExtraLight.otf') format('otf');
+}
+@font-face {
+    font-family: "InterHeavy";
+    src: url('/public/fonts/InterHeavy.otf') format('otf');
+}
+@font-face {
+    font-family: "InterLight";
+    src: url('/public/fonts/InterLight.otf') format('otf');
+}
+@font-face {
+    font-family: "InterMedium";
+    src: url('/public/fonts/InterMedium.otf') format('otf');
+}
+@font-face {
+    font-family: "InterRegular";
+    src: url('/public/fonts/InterRegular.otf') format('otf');
+}
+@font-face {
+    font-family: "InterSemiBold";
+    src: url('/public/fonts/InterSemiBold.otf') format('otf');
+}
+@font-face {
+    font-family: "Lobster";
+    src: url('/public/fonts/Lobster.otf') format('otf');
+}
