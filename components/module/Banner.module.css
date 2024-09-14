@@ -1,0 +1,169 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 640px;
+    border: 12px solid rgba(255, 255, 255, 1);
+    margin: 40px;
+    border-radius: 20px;
+}
+.aboutBanner{
+    width: 620px;
+    height: 640px;
+    background-color: rgba(231, 250, 254, 1);
+    border-radius: 60px 0 0 60px;
+}
+.hotRecipes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 156px;
+    height: 45px;
+    box-shadow: 10px 20px 40px 0px rgba(41, 64, 70, 0.1);
+    background-color: #fff;
+    border-radius: 38px;
+    padding: 10px 20px;
+    margin: 50px auto 32px 50px;
+}
+
+.letter{
+    width: 24px;
+    height: 24px;
+}
+.hotRecipes h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.64px;
+}
+.texts h1{
+    font-size: 64px;
+    line-height: 77.45px;
+    font-weight: 600;
+    margin: 32px 50px 24px 50px;
+}
+.texts p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 24px 50px 30px 50px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.options{
+    display: flex;
+}
+.options div{
+    width: 139px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 30px 16px auto 50px;
+}
+.options div span{
+    font-size: 14px;
+    align-items: 16.94px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chef{
+    margin: 104px auto 55px 50px;
+    display: flex;
+}
+.chef img{
+    width: 50px;
+    height: 50px;
+}
+.chef div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+}
+.chef div p:first-child{
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+.chef div p:last-child{
+    font-size: 14px;
+    line-height: 16.94px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 8px;
+}
+.play{
+    background-color: black;
+    width: 200px;
+    height: 60px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 37px;
+    margin: auto 50px 50px auto;
+}
+.play p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 16.94px;
+    font-weight: 600;
+}
+.bannerImage{
+    width: 660px;
+    height: 640px;
+    border-radius: 0 60px 60px 0;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 250px;
+    left: 670px;
+    border-radius: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    border-right: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/* .border::before{
+    content: "HANDPICKED RECIPES";
+    color: #fff;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 10px;
+} */
+.like{
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.like img{
+    width: 50px;
+    height: 50px;
+}
