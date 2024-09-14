@@ -1,0 +1,24 @@
+.container{
+    margin: 162px 80px 183px 80px;
+}
+.descriptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.descriptions h3{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+}
+.descriptions a{
+    width: 200px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: rgba(231, 250, 254, 1);
+    display: inline-block;
+    padding: 20px 27px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19.36px;
+}
