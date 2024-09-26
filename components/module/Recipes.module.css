@@ -1,0 +1,31 @@
+.container {
+    margin-top: 183px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h3{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+}
+.container p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 24px;
+    color: black;
+    opacity: 60%;
+    width: 706px;
+    height: 56px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px ;
+}
