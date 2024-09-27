@@ -1,4 +1,5 @@
 //Components
+import AboutChef from '../module/AboutChef'
 import Banner from '../module/Banner'
 import Categories from '../module/Categories'
 import Recipes from '../module/Recipes'
@@ -15,6 +16,7 @@ function HomePage() {
         </div>
         <Categories/>
         <Recipes/>
+        <AboutChef/>
     </>
   )
 }
