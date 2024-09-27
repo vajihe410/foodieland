@@ -1,0 +1,35 @@
+.adCard{
+    width: 400px;
+    height: 434px;
+    background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 2703px;
+}
+.adCard img{
+    width: 354px;
+    height: 336px;
+    background: radial-gradient(30.35% 30.35% at 50% 50%, #3A795B 0%, rgba(58, 121, 91, 0) 100%);;
+}
+.adCard div{
+    width: 172px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+.adCard span{
+    width: 137px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color: #fff;
+    opacity: 60%;
+    margin-top: -40px;
+}

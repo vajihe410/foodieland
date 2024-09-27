@@ -1,5 +1,6 @@
 //Components
 import FoodCard from "./FoodCard"
+import FoodAd from "./FoodAd"
 //Styles
 import styles from "./Recipes.module.css"
 
@@ -23,6 +24,7 @@ function Recipes() {
           cardFoods.map(item => <FoodCard key={item.id} data={item}/>)
           }
         </div>
+        <FoodAd/>
     </div>
   )
 }

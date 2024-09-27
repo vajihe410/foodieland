@@ -7,7 +7,6 @@ import ForkKnife from "../icons/ForkKnife"
 import Heart from "../icons/Heart"
 
 function FoodCard({data}) {
-  console.log(data)
   return (
     <div className={styles.card}>
       <Image src={data.image} alt={data.name} width={1000} height={1000}/>
@@ -23,7 +22,7 @@ function FoodCard({data}) {
         </div>
       </div>
       <button className={styles.favorite}>
-        <Heart className={styles.like}/>
+        <Heart className={data.like ? styles.like : styles.dislike}/>
       </button>
     </div> 
   )

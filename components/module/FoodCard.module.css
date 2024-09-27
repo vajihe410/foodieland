@@ -61,9 +61,9 @@
     border: none;
     cursor: pointer;
 }
-.like{
-    fill: red;
+.like path{
+    fill:red;
 }
-.dislike{
-    background-color:#DBE2E5
+.dislike path{
+    fill:#DBE2E5;
 }
