@@ -11,7 +11,7 @@ function AboutChef() {
             <button>Learn More</button>
         </div>
         <div className={styles.images}>
-            <Image className={styles.chef} src="/images/chef.png" alt='chef' width={1000} height={1000}/>
+            <Image className={styles.chef} src="/images/chef.png" alt='chef' width={2000} height={2000}/>
             <Image className={styles.tomato} src="/images/Tomato.png" alt='Tomato' width={1000} height={1000}/>
             <Image className={styles.meat} src="/images/Meat.png" alt='Meat' width={1000} height={1000}/>
             <Image className={styles.onion} src="/images/Onion.png" alt='Onion' width={1000} height={1000}/>
