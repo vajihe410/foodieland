@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: calc(1440px - 160px);
 }
 .instagram_link{
     width: 229px;

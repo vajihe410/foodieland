@@ -1,0 +1,89 @@
+.card_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+    height: 41.76px;
+    background-color: #fff;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    padding-right: 11.6px;
+}
+.profile_image{
+    width: 24.75px;
+    height: 24.75px;
+    margin-left: 7.73px;
+}
+.profile_texts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7.73px;
+}
+.profile_name{
+    width: 57px;
+    height: 14px;
+    font-family: SF Pro Text;
+    font-size: 10.05px;
+    font-weight: 600;
+    line-height: 13.92px;
+    text-align: left;
+}
+.profile_location{
+    width: 53.36px;
+    height: 10.05px;
+    font-family: SF Pro Text;
+    font-size: 8.51px;
+    font-weight: 400;
+    line-height: 10.15px;
+    text-align: left;
+    color: rgba(38, 38, 38, 1);
+}
+.more{
+    margin-right: 11.6px;
+}
+.card_body img{
+    width: 290px;
+    height: 290px;
+}
+.card_footer{
+    width: 290px;
+    height: 113.68px;
+    background-color: #fff;
+}
+.interaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pages span{
+    display: inline-block;
+    width: 4.64px;
+    height: 4.64px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+}
+.pages span:first-child{
+    background-color: rgba(56, 151, 240, 1);
+
+}
+.captions{
+    display: flex;
+    flex-direction: column;
+}
+.follower{
+    width: 13.15px;
+    height: 13.15px;
+}
+.date{
+    width: 56.45px;
+    height: 10.05px;
+    font-family: SF Pro Text;
+    font-size: 8.51px;
+    font-weight: 400;
+    line-height: 10.15px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.4);
+
+}
