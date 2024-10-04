@@ -16,7 +16,7 @@ function AboutInstagram() {
   return (
     <div className={styles.container}>
         <h2>Check out @foodieland on Instagram</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim</p>
+        <p  className={styles.checkInstagram}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim</p>
         <div className={styles.posts}>
             {instagramPosts.map(post => <InstagramPost key={post.id} data={post}/>)}
         </div>

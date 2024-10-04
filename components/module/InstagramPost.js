@@ -42,11 +42,11 @@ function InstagramPost({data}) {
           <Save/>
         </div>
         <div className={styles.captions}>
-          <div>
+          <div className={styles.text}>
             <Image className={styles.follower} src="/images/follower.png" alt="follower" width={800} height={800}/>
-            <p>{`Liked by craig_love and ${data.likes} others`}</p>
+            <p className={styles.like}>Liked by <span>craig_love</span> and <span>{data.likes}</span> others</p>
           </div>
-          <p><span>Foodieland</span>{data.captions}</p>
+          <p className={styles.caption}><span>Foodieland.</span>{data.caption}</p>
           <span className={styles.date}>{data.publish}</span>
         </div>
       </div>

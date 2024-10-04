@@ -5,16 +5,15 @@
     width: 290px;
     height: 41.76px;
     background-color: #fff;
+    padding: 11.7px;
 }
 .profile{
     display: flex;
     align-items: center;
-    padding-right: 11.6px;
 }
 .profile_image{
     width: 24.75px;
     height: 24.75px;
-    margin-left: 7.73px;
 }
 .profile_texts{
     display: flex;
@@ -43,19 +42,46 @@
 .more{
     margin-right: 11.6px;
 }
+.card_body {
+    position: relative;
+}
 .card_body img{
     width: 290px;
     height: 290px;
+}
+.card_body span{
+    width: 26.29px;
+    height: 20.11px;
+    border-radius: 10px;
+    background-color:rgba(18, 18, 18, 0.7);
+    position: absolute;
+    top: 10.83px;
+    right: 10.83px;
+    color:rgba(249, 249, 249, 1);
+    font-family: SF Pro Text;
+    font-size: 9.28px;
+    font-weight: 400;
+    padding: 5.64px 6.64px;
 }
 .card_footer{
     width: 290px;
     height: 113.68px;
     background-color: #fff;
+    margin-top: -3px;
+    padding: 9.83px 12.09px 11.4px 10.83px;
 }
 .interaction{
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
+}
+.interaction div:first-child svg{
+    margin-right:7px;
+}
+.pages{
+    margin-top: -11px;
+    margin-left: -26px;
 }
 .pages span{
     display: inline-block;
@@ -63,6 +89,7 @@
     height: 4.64px;
     background-color: rgba(0, 0, 0, 0.15);
     border-radius: 50px;
+    margin-right: 3.9px;
 }
 .pages span:first-child{
     background-color: rgba(56, 151, 240, 1);
@@ -71,10 +98,54 @@
 .captions{
     display: flex;
     flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 9.61px;
+}
+.text{
+    width: 240px;
+    height: 15px;
+    display: flex;
+    align-items: center;
 }
 .follower{
     width: 13.15px;
     height: 13.15px;
+}
+.like{
+    display:inline-block;
+    width: 184.83px;
+    font-family: SF Pro Text;
+    font-size: 10.05px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+    margin-left: 5.3px;
+}
+.like span{
+    font-family: SF Pro Text;
+    font-size: 10.05px;
+    font-weight: bold;
+    line-height: 13.92px;   
+    text-align: left;
+}
+.caption{
+    display: inline-block;
+    font-family: SF Pro Text;
+    font-size: 10.05px;
+    font-weight: 600;
+    line-height: 13.92px;
+    text-align: left;
+    width: 266.8px;
+    height: 27.84px;
+    margin-top: 3.87px;
+}
+.caption span{
+    font-family: SF Pro Text;
+    font-size: 10.05px;
+    font-weight: 400;
+    line-height: 13.92px;
+    text-align: left;
 }
 .date{
     width: 56.45px;
@@ -85,5 +156,6 @@
     line-height: 10.15px;
     text-align: left;
     color: rgba(0, 0, 0, 0.4);
+    margin-top: 10.8px;
 
 }
