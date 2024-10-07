@@ -1,0 +1,54 @@
+.card{
+    position: relative;
+    margin-top:40px ;
+}
+.card img{
+    width: 290px;
+    height: 200px;
+}
+.favorite{
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 60px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    width: 290px;
+    height: 52px;
+    font-size: 18px;
+    font-weight:600 ;
+    line-height: 26px;
+    margin-top: 16px;
+}
+.options{
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+}
+.options div{
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.options span{
+    width: 73px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 10px;
+}
+.like path{
+    fill:red;
+}
+.dislike path{
+    fill:#DBE2E5;
+}

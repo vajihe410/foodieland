@@ -21,9 +21,9 @@ function FoodCard({data}) {
           <span>{data.type}</span>
         </div>
       </div>
-      <button className={styles.favorite}>
+      <div className={styles.favorite}>
         <Heart className={data.like ? styles.like : styles.dislike}/>
-      </button>
+      </div>
     </div> 
   )
 }

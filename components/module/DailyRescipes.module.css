@@ -21,3 +21,10 @@
     line-height: 28px;
     color: rgba(0, 0, 0, 0.6);
 }
+.cards{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
