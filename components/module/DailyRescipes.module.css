@@ -1,0 +1,23 @@
+.container{
+    margin: 160px 80px
+}
+.texts{
+    display: flex;
+    justify-content: space-between;
+}
+.texts h3{
+    width: 507px;
+    height: 116px;
+    font-size: 48px;
+    font-weight: 600;
+    list-style: 58.09px;
+    text-align: left;
+}
+.texts p{
+    width: 620px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
