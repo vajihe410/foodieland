@@ -1,6 +1,7 @@
 //styles
 import '../styles/globals.css'
-/* import '../styles/fonts.css' */
+/* //Fonts
+import { inter } from '../utils/fontInter' */
 //components
 import Layout from '../components/layout/Layout'
 
