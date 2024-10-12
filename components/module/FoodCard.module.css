@@ -47,7 +47,7 @@
     opacity: 60%;
     margin-left: 10px;
 }
-.favorite{
+.favorite div{
     width: 48px;
     height: 48px;
     background-color: white;
@@ -61,9 +61,11 @@
     border: none;
     cursor: pointer;
 }
-.like path{
-    fill:red;
+
+.like svg{
+    fill: red;
 }
-.dislike path{
+.dislike svg{
     fill:#DBE2E5;
 }
+ 

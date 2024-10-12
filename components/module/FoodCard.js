@@ -7,22 +7,27 @@ import ForkKnife from "../icons/ForkKnife"
 import Heart from "../icons/Heart"
 
 function FoodCard({data}) {
+
+  const { name, image, time, type, like } = data
+
   return (
     <div className={styles.card}>
-      <Image src={data.image} alt={data.name} width={1000} height={1000}/>
-      <div className={styles.name}>{data.name}</div>
+      <Image src={image} alt={name} width={1000} height={1000}/>
+      <div className={styles.name}>{name}</div>
       <div className={styles.options}>
       <div>
           <Clock/> 
-          <span>{data.time}</span>
+          <span>{time}</span>
         </div>
         <div>
           <ForkKnife/> 
-          <span>{data.type}</span>
+          <span>{type}</span>
         </div>
       </div>
-      <div className={styles.favorite}>
-        <Heart className={data.like ? styles.like : styles.dislike}/>
+      <div className={styles.favorite }>
+        <div className={like ? styles.like : styles.dislike}>
+          <Heart/>
+        </div>
       </div>
     </div> 
   )
