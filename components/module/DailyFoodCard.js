@@ -7,7 +7,7 @@ import ForkKnife from "../icons/ForkKnife"
 import styles from "./DailyFoodCard.module.css"
 
 function DailyFoodCard({data}) {
-    console.log(data)
+   
   return (
     <div className={styles.card}>
         <div>

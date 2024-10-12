@@ -10,7 +10,7 @@ import Share from "../icons/Share"
 import Save from "../icons/Save"
 
 function InstagramPost({data}) {
-  console.log(data)
+
   return (
     <div className={styles.card}>
       <div className={styles.card_header}>
