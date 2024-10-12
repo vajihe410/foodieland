@@ -1,14 +1,16 @@
 import Image from 'next/image'
+import Link from 'next/link'
 //Styles
 import styles from './AboutChef.module.css'
 
 function AboutChef() {
+
   return (
     <div className={styles.container}>
         <div className={styles.texts}>
-            <h2>Everyone can be a chefnin their own kitchen</h2>
+            <h2>Everyone can be a chefnig their own kitchen</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim</p>
-            <button>Learn More</button>
+            <Link href="/chef">Learn More</Link>
         </div>
         <div className={styles.images}>
             <Image className={styles.chef} src="/images/chef.png" alt='chef' width={2000} height={2000}/>

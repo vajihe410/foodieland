@@ -28,7 +28,7 @@
     opacity: 60%;
     margin-top: 24px;
 }
-.texts button{
+.texts a{
     margin-top: 72px;
     width: 180px;
     height: 60px;
@@ -36,6 +36,10 @@
     color: white;
     border: none;
     border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .images{
     width: 651px;
