@@ -1,8 +1,27 @@
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aside{
+    width: 40px;
+    height: 600px;
+    background-color:rgba(231, 249, 253, 1);
+    margin-top: 60px;
+}
+.aside:first-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.aside:last-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1280px;
+    width: 1188px;
     height: 640px;
     border: 12px solid rgba(255, 255, 255, 1);
     margin: 40px;
@@ -38,7 +57,7 @@
     line-height: 19.64px;
 }
 .texts h1{
-    font-size: 64px;
+    font-size: 57px;
     line-height: 77.45px;
     font-weight: 600;
     margin: 32px 50px 24px 50px;
@@ -74,6 +93,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: -46px;
 }
 .chef{
     margin: 104px auto 55px 50px;
@@ -130,7 +150,7 @@
     background-color: black;
     position: absolute;
     top: 250px;
-    left: 670px;
+    left: 529px;
     border-radius: 92px;
     display: flex;
     align-items: center;

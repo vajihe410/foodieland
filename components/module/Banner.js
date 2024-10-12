@@ -9,8 +9,10 @@ import Play from '../icons/Play'
 
 function Banner() {
   return (
-    <div className={styles.container}>
-        <div className={styles.aboutBanner}>
+    <div className={styles.banner}>
+        <div className={styles.aside}></div>
+        <div className={styles.container}>
+          <div className={styles.aboutBanner}>
             <div className={styles.hotRecipes}>
                 <Image className={styles.letter} src="/images/letter.png" width={500} height={200} alt='letter image'/>
                 <h5>Hot Recipes</h5>
@@ -52,6 +54,9 @@ function Banner() {
           </div>
         </div>
     </div>
+    <div className={styles.aside}></div>
+    </div>
+    
   )
 }
 
