@@ -18,8 +18,8 @@ function AboutInstagram() {
             {instagramPosts.map(post => <InstagramPost key={post.id} data={post}/>)}
         </div>
         <Link href="#" className={styles.instagram_link}>
-        <span>visit Our Instagram</span>
-        <Instagram/>
+          <span>visit Our Instagram</span>
+          <Instagram/>
         </Link>
     </div>
   )

@@ -11,7 +11,6 @@
     width: 796px;
     height: 58px;
     color: rgba(0, 0, 0, 1);
-    font-family: Inter;
     font-size: 48px;
     font-weight: 600;
     line-height: 58.09px;
@@ -19,7 +18,6 @@
     text-align: center;
 }
 .checkInstagram{
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -47,7 +45,6 @@
 .instagram_link span{
     color: white;
     align-items: center;
-    font-family: Inter;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: -0.02em;

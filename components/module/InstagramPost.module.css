@@ -23,7 +23,6 @@
 .profile_name{
     width: 57px;
     height: 14px;
-    font-family: SF Pro Text;
     font-size: 10.05px;
     font-weight: 600;
     line-height: 13.92px;
@@ -32,7 +31,6 @@
 .profile_location{
     width: 53.36px;
     height: 10.05px;
-    font-family: SF Pro Text;
     font-size: 8.51px;
     font-weight: 400;
     line-height: 10.15px;
@@ -58,7 +56,6 @@
     top: 10.83px;
     right: 10.83px;
     color:rgba(249, 249, 249, 1);
-    font-family: SF Pro Text;
     font-size: 9.28px;
     font-weight: 400;
     padding: 5.64px 6.64px;
@@ -115,7 +112,6 @@
 .like{
     display:inline-block;
     width: 184.83px;
-    font-family: SF Pro Text;
     font-size: 10.05px;
     font-weight: 400;
     text-align: left;
@@ -123,7 +119,6 @@
     margin-left: 5.3px;
 }
 .like span{
-    font-family: SF Pro Text;
     font-size: 10.05px;
     font-weight: bold;
     line-height: 13.92px;   
@@ -131,7 +126,6 @@
 }
 .caption{
     display: inline-block;
-    font-family: SF Pro Text;
     font-size: 10.05px;
     font-weight: 600;
     line-height: 13.92px;
@@ -141,7 +135,6 @@
     margin-top: 3.87px;
 }
 .caption span{
-    font-family: SF Pro Text;
     font-size: 10.05px;
     font-weight: 400;
     line-height: 13.92px;
@@ -150,12 +143,10 @@
 .date{
     width: 56.45px;
     height: 10.05px;
-    font-family: SF Pro Text;
     font-size: 8.51px;
     font-weight: 400;
     line-height: 10.15px;
     text-align: left;
     color: rgba(0, 0, 0, 0.4);
     margin-top: 10.8px;
-
 }

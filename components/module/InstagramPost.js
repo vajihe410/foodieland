@@ -11,6 +11,8 @@ import Save from "../icons/Save"
 
 function InstagramPost({data}) {
 
+  const {name, src, location, caption, likes, publish, numberOfImage} = data
+
   return (
     <div className={styles.card}>
       <div className={styles.card_header}>
@@ -18,14 +20,14 @@ function InstagramPost({data}) {
             <Image className={styles.profile_image} src="/images/profile.png" alt="profile" width={800} height={800}/>
             <div className={styles.profile_texts}>
               <div><span className={styles.profile_name}>Foodieland.</span> <Check/></div>
-              <span className={styles.profile_location}>{data.location}</span>
+              <span className={styles.profile_location}>{location}</span>
             </div>
           </div>
           <More className={styles.more}/>
       </div>
       <div className={styles.card_body}>
-        <Image className={styles.post} src={data.src} alt={data.name} width={1000} height={1000}/>
-        <span>1/3</span>
+        <Image className={styles.post} src={src} alt={name} width={1000} height={1000}/>
+        <span>1/{numberOfImage}</span>
       </div>
       <div className={styles.card_footer}>
         <div className={styles.interaction}>
@@ -44,10 +46,10 @@ function InstagramPost({data}) {
         <div className={styles.captions}>
           <div className={styles.text}>
             <Image className={styles.follower} src="/images/follower.png" alt="follower" width={800} height={800}/>
-            <p className={styles.like}>Liked by <span>craig_love</span> and <span>{data.likes}</span> others</p>
+            <p className={styles.like}>Liked by <span>craig_love</span> and <span>{likes}</span> others</p>
           </div>
-          <p className={styles.caption}><span>Foodieland.</span>{data.caption}</p>
-          <span className={styles.date}>{data.publish}</span>
+          <p className={styles.caption}><span>Foodieland.</span>{caption}</p>
+          <span className={styles.date}>{publish}</span>
         </div>
       </div>
       
