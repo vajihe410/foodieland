@@ -6,7 +6,7 @@
     width: 290px;
     height: 200px;
 }
-.favorite{
+.favorite div{
     width: 48px;
     height: 48px;
     background-color: #fff;
@@ -18,6 +18,14 @@
     align-items: center;
     justify-content: center;
 }
+.like svg{
+    fill: rgba(255, 99, 99, 1);
+
+}
+.dislike svg{
+    fill:#DBE2E5;
+}
+ 
 .name{
     width: 290px;
     height: 52px;
@@ -45,10 +53,4 @@
     line-height: 16.94px;
     color: rgba(0, 0, 0, 0.6);
     margin-left: 10px;
-}
-.like path{
-    fill:red;
-}
-.dislike path{
-    fill:#DBE2E5;
 }

@@ -7,23 +7,27 @@ import ForkKnife from "../icons/ForkKnife"
 import styles from "./DailyFoodCard.module.css"
 
 function DailyFoodCard({data}) {
-   
+
+   const {image, name, time, type, like} = data
+
   return (
     <div className={styles.card}>
         <div>
-            <Image src={data.image} alt={data.name} width={1000} height={1000}/>
+            <Image src={image} alt={name} width={1000} height={1000}/>
             <div className={styles.favorite}>
-                <Heart className={data.like ? styles.like : styles.dislike}/>
+                <div className={like ? styles.like : styles.dislike}>
+                    <Heart/>
+                </div>
             </div>
-            <p className={styles.name}>{data.name}</p>
+            <p className={styles.name}>{name}</p>
             <div className={styles.options}>
                 <div>
                     <Clock/> 
-                    <span>{data.time}</span>
+                    <span>{time}</span>
                 </div>
                 <div>
                     <ForkKnife/> 
-                    <span>{data.type}</span>
+                    <span>{type}</span>
                 </div>
             </div>
         </div>
