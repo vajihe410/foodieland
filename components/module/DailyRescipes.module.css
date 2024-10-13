@@ -4,6 +4,7 @@
 .texts{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .texts h3{
     width: 507px;
