@@ -62,7 +62,7 @@
 }
 
 .like svg{
-    fill: red;
+    fill: rgba(255, 99, 99, 1);
 }
 .dislike svg{
     fill:#DBE2E5;
