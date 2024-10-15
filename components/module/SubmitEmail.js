@@ -4,10 +4,15 @@ import Image from "next/image"
 import styles from "./SubmitEmail.module.css"
 
 function SubmitEmail() {
-    const [email,setEmail] = useState("")
-    const clickHandler = () => {
-
-    }
+  const [email,setEmail] = useState("")
+  const clickHandler = async () => {
+    const res = await fetch("/api/submitEmail",{
+      method:"POST",
+      body:JSON.stringify(email),
+      headers:{"Content-Type": "application/json"}
+    })
+    const data = await res.json()
+  }
   return (
     <div className={styles.container}>
         <h3>Deliciousness to your inbox</h3>
