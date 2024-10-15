@@ -11,7 +11,10 @@
 .adCard img{
     width: 354px;
     height: 336px;
-    background: radial-gradient(30.35% 30.35% at 50% 50%, #3A795B 0%, rgba(58, 121, 91, 0) 100%);;
+}
+.adCard ::after{
+    content:"";
+    background: radial-gradient(30.35% 30.35% at 50% 50%, #3A795B 0%, rgba(58, 121, 91, 0) 100%);
 }
 .adCard div{
     width: 172px;
